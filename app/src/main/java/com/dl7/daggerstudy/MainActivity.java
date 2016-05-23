@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.dl7.daggerstudy.activity.BaseMarketActivity;
 import com.dl7.daggerstudy.activity.DependActivity;
 import com.dl7.daggerstudy.activity.FruitActivity;
+import com.dl7.daggerstudy.activity.ImplActivity;
 import com.dl7.daggerstudy.activity.ModulesActivity;
 import com.dl7.daggerstudy.activity.MulitFruitActivity;
 import com.dl7.daggerstudy.activity.SingletonActivity;
@@ -31,6 +32,8 @@ public class MainActivity extends BaseMarketActivity {
     Button mBtnDaggerDepend;
     @Bind(R.id.btn_dagger_singleton)
     Button mBtnDaggerSingleton;
+    @Bind(R.id.btn_dagger_implement)
+    Button mBtnDaggerImplement;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,5 +63,10 @@ public class MainActivity extends BaseMarketActivity {
                 startActivity(new Intent(MainActivity.this, SingletonActivity.class));
                 break;
         }
+    }
+
+    @OnClick(R.id.btn_dagger_implement)
+    public void onClick() {
+        startActivity(new Intent(MainActivity.this, ImplActivity.class));
     }
 }

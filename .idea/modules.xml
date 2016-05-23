@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidLib/AndroidLib.iml" filepath="$PROJECT_DIR$/AndroidLib/AndroidLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/DaggerStudy.iml" filepath="$PROJECT_DIR$/DaggerStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Simple/Simple.iml" filepath="$PROJECT_DIR$/Simple/Simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
